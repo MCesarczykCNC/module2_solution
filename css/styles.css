@@ -44,15 +44,9 @@ body {
     flex-grow: 1;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .section {
-        flex-basis: 47%;
-    }
-
-    @media (max-width: 767px) {
-        .section {
-            flex-basis: 100%;
-        }
+        flex-basis: 100%;
     }
 }
 
